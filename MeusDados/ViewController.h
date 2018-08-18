@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    __weak IBOutlet UILabel *meuLabel1;
+    
+    __weak IBOutlet UILabel *meuLabel2;
+    
+    __weak IBOutlet UILabel *meuLabel3;
+    
+}
 
+- (IBAction)exibir:(id)sender;
+- (IBAction)limpar:(id)sender;
 
 @end
 

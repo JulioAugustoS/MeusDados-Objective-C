@@ -13,6 +13,7 @@
 		AC2EEF222128462500B5D5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2EEF212128462500B5D5BF /* Assets.xcassets */; };
 		AC2EEF252128462500B5D5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2EEF232128462500B5D5BF /* LaunchScreen.storyboard */; };
 		AC2EEF282128462500B5D5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2EEF272128462500B5D5BF /* main.m */; };
+		AC2EEF2F21285ED900B5D5BF /* foto3x4.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2EEF2E21285ED900B5D5BF /* foto3x4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AC2EEF242128462500B5D5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2EEF262128462500B5D5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2EEF272128462500B5D5BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC2EEF2E21285ED900B5D5BF /* foto3x4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foto3x4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				AC2EEF212128462500B5D5BF /* Assets.xcassets */,
 				AC2EEF232128462500B5D5BF /* LaunchScreen.storyboard */,
 				AC2EEF262128462500B5D5BF /* Info.plist */,
+				AC2EEF2E21285ED900B5D5BF /* foto3x4.png */,
 				AC2EEF272128462500B5D5BF /* main.m */,
 			);
 			path = MeusDados;
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2EEF252128462500B5D5BF /* LaunchScreen.storyboard in Resources */,
+				AC2EEF2F21285ED900B5D5BF /* foto3x4.png in Resources */,
 				AC2EEF222128462500B5D5BF /* Assets.xcassets in Resources */,
 				AC2EEF202128462300B5D5BF /* Main.storyboard in Resources */,
 			);
@@ -283,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MeusDados/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MeusDados/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
